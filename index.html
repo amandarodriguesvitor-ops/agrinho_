@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustentabilidade no Campo - Projeto Agrinho</title>
+    <style>
+        /* Estilos Gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f9f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(135deg, #1b4d3e, #2e7d32);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Cards em Grid */
+        .grid-beneficios {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 5px solid #2e7d32;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #1b4d3e;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        /* Seção Informativa */
+        .info-secao {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            margin-top: 40px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .info-secao h2 {
+            color: #1b4d3e;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+
+        /* Botão de Ação */
+        .btn-acao {
+            display: inline-block;
+            background-color: #2e7d32;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+
+        .btn-acao:hover {
+            background-color: #1b4d3e;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #1b4d3e;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+            margin-top: 60px;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agricultura Familiar Sustentável</h1>
+        <p>Pequenos produtores do Paraná abastecendo o futuro com alimentos limpos</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="info-secao">
+            <h2>O Poder do Pequeno Produtor Paranaense</h2>
+            <p>A agricultura familiar é a força que impulsiona a sustentabilidade no campo e na cidade. No Paraná, milhares de famílias dedicam-se ao cultivo de alimentos limpos, livres de contaminações e produzidos com respeito aos recursos hídricos e ao solo. Essa dedicação garante comida de verdade na mesa da população e gera renda que circula na própria comunidade rural.</p>
+        </section>
+
+        <div class="grid-beneficios">
+            <div class="card">
+                <h3>Merenda Escolar Saudável</h3>
+                <p>Cooperativas locais direcionam toneladas de frutas, legumes e hortaliças orgânicas diretamente para a rede pública de ensino. Alunos nutridos com comida limpa têm melhor desempenho escolar e aprendem desde cedo o valor da sustentabilidade.</p>
+            </div>
+
+            <div class="card">
+                <h3>Feiras Locais Vivas</h3>
+                <p>O contato direto entre o produtor e o consumidor final nas feiras livres elimina intermediários. O resultado se traduz em alimentos colhidos no mesmo dia, preços mais justos e o fortalecimento da economia regional.</p>
+            </div>
+
+            <div class="card">
+                <h3>Produção Limpa e Verde</h3>
+                <p>Técnicas agrícolas modernas focadas na preservação ambiental reduzem drasticamente o uso de insumos químicos agressivos. O manejo correto protege a biodiversidade local e garante o sustento das próximas gerações do campo.</p>
+            </div>
+        </div>
+
+        <section class="info-secao" style="text-align: center;">
+            <h2>Faça sua Parte pelo Nosso Campo</h2>
+            <p>Consumir de pequenos produtores é um ato de transformação social e ecológica. Apoie as feiras do seu município!</p>
+            <a href="https://www.sistemafaep.org.br/agrinho/" target="_blank" class="btn-acao">Conheça o Programa Agrinho</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Projeto desenvolvido para o Concurso Agrinho Paraná</p>
+        <p>Tecnologia e Sustentabilidade de mãos dadas por um futuro melhor.</p>
+    </footer>
+
+</body>
+</html>
